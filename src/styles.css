@@ -76,6 +76,10 @@ p {
   line-height: 30px;
 }
 @media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 56px;
+  }
   h2 {
     font-size: 44px;
   }
@@ -86,6 +90,10 @@ p {
   .about-section {
     padding: 0;
     text-align: center;
+  }
+  .content {
+    text-align: center;
+    padding: 0;
   }
 }
 
@@ -128,6 +136,19 @@ p {
 .content h1 {
   font-size: 64px;
   line-height: 80px;
+}
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+
+  font-family: var(--default-font-family);
+}
+.content p {
+  font-size: 14px;
+}
+
+.content {
+  margin: 30px;
 }
 .content-container {
   padding: 160px 20px;
